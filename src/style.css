@@ -1,0 +1,19 @@
+
+
+
+button {
+  background: linear-gradient(90deg, #008f7a ,#008e9b,#0089ba,#0081cf,#2c73d2, #008f7a);
+  background-size: 1000%;
+  color: white;
+  filter: drop-shadow(0 0 0.75rem #11111155);
+  animation: smoothgradient 30s linear infinite;
+}
+
+@keyframes smoothgradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 1000%;
+  }
+}
